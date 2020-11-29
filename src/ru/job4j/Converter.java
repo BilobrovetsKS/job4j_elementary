@@ -5,8 +5,7 @@ public class Converter {
     public static int rubleToEuro(int value) {
         int rsl = value / 70;
         return rsl;
-    }
-    public static int euroToRuble(int value) {
+    }public static int euroToRuble(int value) {
         int rsl = value * 70;
         return rsl;
     }
