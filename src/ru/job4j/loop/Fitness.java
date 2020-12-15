@@ -7,7 +7,7 @@ public class Fitness {
             if (ivan < nik) {
                 month += 1;
                 while ((ivan *= 3) < (nik *= 2)) {
-                    month += 1;
+                    month += 2;
                 }
             }
             return month;
