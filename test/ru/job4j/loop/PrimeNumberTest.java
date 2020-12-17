@@ -26,7 +26,7 @@ public class PrimeNumberTest {
 
     @Test
     public void when8() {
-        int count = PrimeNumber.calc(15);
+        int count = PrimeNumber.calc(14);
         assertThat(count, is(6));
     }
 }
