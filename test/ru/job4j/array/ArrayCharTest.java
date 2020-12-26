@@ -25,7 +25,7 @@ public class ArrayCharTest {
     @Test
     public void whenStartWithPrefixThenFalse() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
-        char[] pref = {'H', 'e', 'l', 'o'};
+        char[] pref = {'H', 'e', 'l', 'l', 'e'};
         boolean result = ArrayChar.startsWith(word, pref);
         assertThat(result, is(false));
     }
