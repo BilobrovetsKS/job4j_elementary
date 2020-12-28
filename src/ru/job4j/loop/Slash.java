@@ -1,5 +1,7 @@
 package ru.job4j.loop;
 
+import com.sun.source.util.SourcePositions;
+
 public class Slash {
     public static void draw(int size) {
         for (int row = 0; row < size; row++) {
@@ -24,5 +26,7 @@ public class Slash {
         draw(3);
         System.out.println("Draw by 5");
         draw(5);
+        System.out.println("Draw by 7");
+        draw(7);
     }
-}
+    }
