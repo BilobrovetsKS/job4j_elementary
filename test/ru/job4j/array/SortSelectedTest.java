@@ -23,9 +23,9 @@ public class SortSelectedTest {
 
     @Test
     public void whenSort5() {
-        int[] input = new int[] {54, 89, 1, 42, 39};
+        int[] input = new int[] {54, 89, 2, 42, 39};
         int[] result = SortSelected.sort(input);
-        int[] expect = new int[] {1, 39, 42, 54, 89};
+        int[] expect = new int[] {2, 39, 42, 54, 89};
         assertThat(result, is(expect));
     }
 }
