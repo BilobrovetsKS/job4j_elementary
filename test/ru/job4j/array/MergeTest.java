@@ -39,10 +39,10 @@ public class MergeTest {
 
     @Test
     public void whenLeftLess() {
-        int[] expect = {1, 2, 3, 3, 4};
+        int[] expect = {1, 2, 3, 4, 4};
         int[] result = Merge.merge(
-                new int[] {1, 2, 3},
-                new int[] {3, 4}
+                new int[] {1, 2},
+                new int[] {3, 4, 4}
         );
         assertThat(result, is(expect));
     }
